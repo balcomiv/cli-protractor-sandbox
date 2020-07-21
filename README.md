@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Helpful Links
+
+https://stackoverflow.com/questions/54205211/how-do-i-prevent-powershell-from-failing-if-karma-has-failed-tests
+
+https://medium.com/angular-in-depth/the-angular-devops-series-ct-and-code-coverage-with-teamcity-21e3d0ed77eb
+
+https://medium.com/@mgd4375/building-an-angular-cli-project-in-teamcity-714a894f7083
