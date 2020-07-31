@@ -9,10 +9,21 @@
     "lint": "ng lint",
     "e2e": "ng e2e --port 4300",
     "serve": "ng serve",
-    "protractor": "protractor ./e2e/protractor.conf.js --params.login.password=123456",
+    "protractor": "protractor ./e2e/protractor.conf.js",
     "wait-e2e": "wait-on tcp:4200 && npm run protractor",
     "test:system": "npm-run-all -p serve wait-e2e",
-    "pr": "protractor ./e2e/protractor.conf.js"
+    "pr": "protractor ./e2e/protractor.conf.js",
+    "test:parent": "ng test --include app/components/parent/parent.component.spec.ts",
+    "test:child": "ng test --include app/components/child/child.component.spec.ts",
+    "test:both:s": "npm run test:parent && test:child",
+    "test:both": "npm-run-all -p test:parent test:child",
+    "e2e:rmx": "npm-run-all -p serve wait-e2e",
+    "e2e:rmx:pr": "",
+    "e2e:rmx:merge": "",
+    "test:rmx": "",
+    "test:rmx:merge": "",
+    "test:rmx:pr": "--params.login.password=123456",
+    "arg": "npm-run-all protractor"
   },
   "private": true,
   "dependencies": {

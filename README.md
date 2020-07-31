@@ -33,3 +33,21 @@ https://stackoverflow.com/questions/54205211/how-do-i-prevent-powershell-from-fa
 https://medium.com/angular-in-depth/the-angular-devops-series-ct-and-code-coverage-with-teamcity-21e3d0ed77eb
 
 https://medium.com/@mgd4375/building-an-angular-cli-project-in-teamcity-714a894f7083
+
+https://stackoverflow.com/questions/54205211/how-do-i-prevent-powershell-from-failing-if-karma-has-failed-tests
+
+### Powershell
+
+https://stackoverflow.com/questions/22430326/loop-until-ipport-is-responding
+
+### Ng Test Params
+
+This works https://github.com/angular/angular-cli/issues/11220
+npm run e2e --my-param=test -- --suite=someSuite
+// args after -- are append to the command listed in package.json
+
+### Protractor Params
+
+https://moduscreate.com/blog/protractor-parameters-adding-flexibility-automation-tests/
+
+https://stackoverflow.com/questions/23135649/how-can-i-use-command-line-arguments-in-angularjs-protractor

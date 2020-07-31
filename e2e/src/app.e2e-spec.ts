@@ -10,6 +10,9 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     expect(browser.params.login.password).toEqual(123456);
+    //  expect(process.env.npm_config_params_login_password).toEqual('123456');
+
+    // console.log(process.env);
 
     page.navigateTo();
     expect(page.getTitleText()).toEqual(
